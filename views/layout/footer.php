@@ -20,24 +20,24 @@
                 </div>
                 <div class="flex justify-around gap-5">
                     <div class="text-left">
-                        <%= link_to skills_path, class: "flex gap-2 hover:underline" do %>
-                            <%= image_tag("skills.png", class: "h-6" ) %>
+                        <a href="#" class="flex gap-2 hover:underline">
+                            <img class="h-6" src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/images/skills.png">
                             <h1 class="text-lg font-bold">Skills</h1>
-                        <% end %>
+                        </a>
                         <p>I've learned all sorts of skills while working and attending college, including some like self-motivation, problem solver and more.</p>
                     </div>
                     <div class="text-left">
-                        <%= link_to projects_path, class: "flex gap-2 hover:underline" do %>
-                            <%= image_tag("projects.png", class: "h-6" ) %>
+                        <a href="#" class="flex gap-2 hover:underline">
+                            <img src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/images/projects.png" class="h-6">
                             <h1 class="text-lg font-bold">Projects</h1>
-                        <% end %>
+                        </a>
                         <p>I have worked on a few projects throughout College, in the projects page, I have picked the top three, four if we count my website.</p>
                     </div>
                     <div class="text-left">
-                        <%= link_to tools_path, class: "flex gap-2 hover:underline" do %>
-                            <%= image_tag("wrench.png", class: "h-6" ) %>
+                        <a href="#" class="flex gap-2 hover:underline">
+                            <img class="h-6" src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/images/wrench.png">
                             <h1 class="text-lg font-bold">Tools</h1>
-                        <% end %>
+                        </a>
                         <p>I've gathered an arsenal of tools while at NBCC, and at my workplaces. These tools help me in my daily life as a programmer.</p>
                     </div>
                 </div>
@@ -57,13 +57,13 @@
                         </div>
                         <div class="flex gap-9">
                             <a href="https://www.linkedin.com/in/anthonylevesque70/" target="_blank">
-                                <img class="h-6" src="images/LinkedIn.png">
+                                <img class="h-6" src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/images/LinkedIn.png">
                             </a>
                             <a href="mailto:anthonylevesque70@gmail.com">
-                                <img class="h-6" src="images/Email.png">
+                                <img class="h-6" src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/images/Email.png">
                             </a>
                             <a href="https://github.com/ALevesque03" target="_blank">
-                                <img class="h-6" src="images/Github.png">
+                                <img class="h-6" src="<?php $_SERVER['DOCUMENT_ROOT'] ?>/images/Github.png">
                             </a>
                         </div>
                     </div>
